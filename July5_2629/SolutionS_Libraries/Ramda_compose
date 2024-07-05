@@ -1,0 +1,5 @@
+// And similarly, using Lodash's flowRight function:
+
+import { compose } from "ramda";
+
+const composedFn = compose(...functions);
