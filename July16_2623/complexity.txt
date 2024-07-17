@@ -1,0 +1,8 @@
+Complexity Analysis
+The following analysis applies to all approaches.
+
+Let N be the number of times the function was called previously.
+
+Time complexity: O(1). Each time the memoized function is called, a single dictionary lookup is performed.
+
+Space complexity: O(N). In the worst case, all the previous arguments need to be stored.
