@@ -1,0 +1,5 @@
+For those interested in understanding how asynchronous scripts work in JavaScript and how the JS runtime handles them, I highly recommend checking out this helpful resource: http://latentflip.com/loupe/
+
+It provides an interactive visualizer that allows you to step through the execution of JavaScript code and observe how asynchronous operations, event loops, and callback queues function in the runtime environment. It's a great way to gain insights into the inner workings of JavaScript's asynchronous nature.
+
+Understanding these concepts can be crucial for tackling asynchronous programming challenges effectively. Happy coding!
