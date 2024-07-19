@@ -57,3 +57,7 @@ When the async operation completes, its callback function is placed into the tas
 Once the call stack is empty (i.e., all the code in the current turn of the Event Loop has been executed), the Event Loop takes the first task from the task queue and pushes it onto the call stack, which immediately executes it.
 This process continues, with the Event Loop pushing tasks from the task queue onto the call stack whenever the call stack is empty, allowing JavaScript to handle multiple operations concurrently despite being single-threaded.
 This is a high-level overview of how JavaScript handles asynchronous operations. It's more complex in reality, with additional features like microtasks and macrotasks, but this is the fundamental concept.
+
+Loupe
+
+https://www.youtube.com/watch?v=8aGhZQkoFbQ
